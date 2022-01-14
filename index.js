@@ -5,7 +5,7 @@ import './style.css';
 function Item(props){
   return <div className="item">
   <b>Name:</b> {props.name}<br />
-  <b>price:</b>${props.price}
+  <b>price:</b> ${props.price}
   </div>;
 }
 
